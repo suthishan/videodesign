@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Video Card Design</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+  .fa{
+	font-size:16px !important;
+	color:gray;
+  }
+  </style>
+
+</head>
+
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<section>
+        <div id="card">
+            <div class="card-header">
+				<div class="row">
+				<div class="col-md-2"><p style="font-size:12px;">Name</p></div>
+				<div class="col-md-3">
+					<div class="backcard">
+						
+						<div class="radio-group">
+						<input type="radio" id="option-one" name="selector"><label for="option-one"><i class="fa fa-info-circle" style="margin: 0 8px 0 3px;" aria-hidden="true"></i></label>
+						<input type="radio" id="option-two" name="selector"><label for="option-two"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> </label>
+						  </div>
+					
+					
+						<!-- <span style="border-right:1px solid #000;"> -->
+						<!-- <button id="finance-btn"><i class="fa fa-info-circle" style="margin: 0 8px 0 3px;" aria-hidden="true"></i></button> -->
+						
+						<!-- </span> -->
+						<!-- <span style="margin-left: 8px;"><button id="refer-btn"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> </button></span> -->
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="backcard">
+						<span>End Test</span>
+					</div>
+				</div>
+				
+				</div>
+                
+                
+                <div class="time">
+                    <div class="time-av">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <span>7 Oct,Weds</span>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <span>10:15AM - 10:30AM</span>
+                    </div>
+                    <p class="time-zone">Timezone: Europe/Amsterdam</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-image">
+                    <img src="https://i.imgyukle.com/2020/09/19/x0TT5y.jpg" alt="">
+                    <div class="img-section">
+                        <i class="fa fa-video-camera" aria-hidden="true"></i>
+                        <i class="fa fa-microphone" aria-hidden="true"></i>
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card-user-profile">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <h3>Adem İlter</h3>
+                </div>
+
+                <ul class="card-setting">
+                    <li>
+                        <label for="camera-slct">Camera</label>
+                        <select name="camera" id="camera">
+                            <option value="facetime">Facetime HD Camera</option>
+                            <option value="logitech">Logitech Web Camera</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="speaker-slct">Speaker</label>
+                        <select name="speaker" id="speaker-slct">
+                            <option value="headphone">Built-in-Output (Headphones)</option>
+                            <option value="loudspeaker">Built-in-Output (Loudspeaker)</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="mic-slct">Microphone</label>
+                        <select name="microphone" id="mic-slct">
+                            <option value="microphone">Built-in Microphone</option>
+                            <option value="loudspeaker">Built-in Loudspeaker</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="sound-test">Sound Test</label>
+                        <button type="button"><a href="">Play Sound</a></button>
+                    </li>
+                </ul>
+                <button type="button" class="join"><a href="">Join Call</a></button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+<!-- partial -->
+  
+</body>
+</html>
